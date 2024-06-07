@@ -1,7 +1,5 @@
 import allure
-from selene.support import by
-from selene.support.shared import browser
-from selene.support.conditions import be
+from selene import by, browser, be
 from selene.support.shared.jquery_style import s
 
 

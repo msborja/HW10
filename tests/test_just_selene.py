@@ -1,6 +1,4 @@
-from selene.support import by
-from selene.support.shared import browser
-from selene.support.conditions import be
+from selene import by, browser, be
 from selene.support.shared.jquery_style import s
 
 
@@ -15,4 +13,4 @@ def test_github():
 
     s('#issues-tab').click()
 
-    s(by.partial_text('#844')).should(be.visible)
+    s(by.partial_text('#84')).should(be.visible)
